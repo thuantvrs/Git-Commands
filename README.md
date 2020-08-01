@@ -70,3 +70,15 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+### Discard & Clean & Reset
+
+| Command | Description |
+| ------- | ----------- |
+| `git clean -n` | see which local files will be deleted |
+| `git clean -f` | it will delete the local files for real |
+| `git clean -f -d ` | To remove directories |
+| `git clean -f -X` | To remove ignored files |
+| `git clean -f -x` | To remove ignored and non-ignored files |
+| `git reset --hard ` | Discard all local changes permanently |
